@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nabilshaikh/whiteboard-playwright-tests.git"
@@ -15,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/nabilshaikh/whiteboard-playwright-tests/issues"
   },
-  "homepage": "https://github.com/nabilshaikh/whiteboard-playwright-tests#readme"
+  "homepage": "https://github.com/nabilshaikh/whiteboard-playwright-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.21.0"
+  }
 }
